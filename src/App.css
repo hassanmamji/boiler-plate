@@ -1,4 +1,50 @@
-.App {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-links li a:hover {
+  color: #00bfff;
+}
+
+.page-content {
+  padding: 40px;
+}
+
+.page h1 {
+  color: #333;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +81,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
